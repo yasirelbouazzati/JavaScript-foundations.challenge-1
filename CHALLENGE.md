@@ -39,9 +39,9 @@ In JavaScript, a primitive (primitive value, primitive data type) is an **immuta
 In JasvaScript, a String is a sequence of characters used to represent text.
 
 ```javascript
-const john = "John Doe"; // single quotes
+const john = 'John Doe'; // single quotes
 const ada = "Ada Lovelace"; // double quotes
-const interpolatedNames = `${john} and ${ada} are two strings.`; // string interpolation
+const interpolatedNames = `${john} and ${ada} are two strings.`; // this is a string interpolation
 ```
 
 ### `number`
