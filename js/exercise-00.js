@@ -11,17 +11,17 @@
 
 
 
-const String = "Yasir";
-const Number = 20;
-const Boolean = true;
-const Null = null;
-const Undefined = undefined;
+const string = "Yasir";
+const number = 20;
+const boolean = true;
+const nulls = null;
+const undefineds = undefined;
 
-console.log(String);
-console.log(Number);
-console.log(Boolean);
-console.log(Null);
-console.log(Undefined);
+console.log(string);
+console.log(number);
+console.log(boolean);
+console.log(nulls);
+console.log(undefineds);
 
 
 

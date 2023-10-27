@@ -11,8 +11,11 @@ function getTypeOf(value) {
 }
 
 
-console.log(getTypeOf("suuu!"));
+console.log(getTypeOf("suuu!")); // string
 console.log(getTypeOf(28));
 console.log(getTypeOf(true));
 console.log(getTypeOf(null));
 console.log(getTypeOf(undefined));
+
+
+
