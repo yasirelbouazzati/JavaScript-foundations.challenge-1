@@ -26,7 +26,7 @@ console.log(vaca);
 //declare the let variable
 const vaca;
 //initialize the variable
-vaca1"Moo!";
+vaca"Moo!";
 //print the messege
 console.log(vaca);
 
