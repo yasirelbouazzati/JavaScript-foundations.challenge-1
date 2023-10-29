@@ -33,7 +33,7 @@ result:
 VM24:1 Uncaught SyntaxError: Missing initializer in const declaration
 
 Explicaction:
-II ejecute this code in const  but have's a error, because i created the empty constant variable and below I put the value of the string variable, 
+I ejecute this code in const  but have's a error, because i created the empty constant variable and below I put the value of the string variable, 
 something that cannot be done in const since it would cause an error in the change in let, yes it can.
 
 
