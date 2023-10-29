@@ -7,41 +7,37 @@
 */
 
 //declare the let variable
-let vaca;
+let cow;
 //initialize the variable
-vaca = "Moo!";
+cow = "Moo!";
 //print the messege
-console.log(vaca);
+console.log(cow);
 
-
+//result: Moo!
 
 
 /*
 
-
-
-//Exemple of const error:
-
-
-//declare the let variable
-const vaca;
-//initialize the variable
-vaca1"Moo!";
-//print the messege
-console.log(vaca);
-
-
 Explanation of this error:
-because I created the empty constant variable and below I put the value of the string variable, 
+
+The bad code:
+const cow1; --> declare the let variable
+cow1"Moo!"; --> initialize the variable
+console.log(cow1); --> print the 
+
+result:
+VM24:1 Uncaught SyntaxError: Missing initializer in const declaration
+
+Explicaction:
+I ejecute this code in const  but have's a error, because i created the empty constant variable and below I put the value of the string variable, 
 something that cannot be done in const since it would cause an error in the change in let, yes it can.
-It also gave an error because I put the same variable name that I had in the let, which gave an error.
 
+Correct example of const:
+const cow1 = "Moo!";
+console.log(cow1);
 
-//Correct example of const:
-const vaca1 = "Moo!";
-console.log(vaca1);
-
-
+result:
+Moo!
 
 
 
