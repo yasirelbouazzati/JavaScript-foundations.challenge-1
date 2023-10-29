@@ -6,6 +6,12 @@
     Repeat the above steps but try using a const variable. Comment this new part of code and explain what is happening.
 */
 
+
+
+
+//FIX: I Try to execute this script using 'const' instead of 'let'. Show the output and explain the cause.
+
+
 //declare the let variable
 let cow;
 //initialize the variable
@@ -33,18 +39,19 @@ result:
 VM24:1 Uncaught SyntaxError: Missing initializer in const declaration
 
 Explicaction:
-I ejecute this code in const  but have's a error, because i created the empty constant variable and below I put the value of the string variable, 
-something that cannot be done in const since it would cause an error in the change in let, yes it can.
+I executed this code whith 'const,' but it resulted in an error becouse i created an empty constant varibale 
+and then attempted to assign a value to it. This is not allowed with 'const' and results in an error. While with 'let', it can be done.
 
-
-Correct example of const:
+Correct example with const:
 
 const cow1 = "Moo!";
 console.log(cow1);
 
-result:
-Moo!
+result: Moo!
 
 
 
 */
+
+
+
