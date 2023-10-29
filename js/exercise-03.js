@@ -11,12 +11,13 @@ function getTypeOf(value) {
 }
 
 
-console.log(getTypeOf("suuu!")); // string
-console.log(getTypeOf(28));//when i ejecute this code un consolé his printe number
+console.log(getTypeOf("suuu!"));//string
+console.log(getTypeOf(28));//number
+//when i ejecute this code un consolé his printe number
 //summary: the answear is number becouse the getTypeOf he show and verify in consolé that the value 28 is the type of "number"(String) in JavaScript
 
-console.log(getTypeOf(true));
-console.log(getTypeOf(null));
-console.log(getTypeOf(undefined));
+console.log(getTypeOf(true));//bolean
+console.log(getTypeOf(null));//object
+console.log(getTypeOf(undefined));//undefined
 
 
