@@ -11,17 +11,17 @@
 
 
 
-const string = "Yasir";
-const number = 20;
-const boolean = true;
-const nulls = null;
-const undefineds = undefined;
+const string = "Yasir";//declare the varable
+const number = 20;//declare the varable
+const boolean = true;//declare the varable
+const nulls = null;//declare the varable
+const undefineds = undefined;//declare the varable
 
-console.log(string);
-console.log(number);
-console.log(boolean);
-console.log(nulls);
-console.log(undefineds);
+console.log(string);//print Yasir
+console.log(number);//print 20
+console.log(boolean);//print true
+console.log(nulls);//print null
+console.log(undefineds);//print undefined
 
 
 
