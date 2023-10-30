@@ -4,20 +4,15 @@
     2. Log the result of any function call.
 */
 
-
-
 function getTypeOf(value) {
-    return typeof value;
+  return typeof value;
 }
 
-
-console.log(getTypeOf("suuu!"));//string
-console.log(getTypeOf(28));//number
+console.log(getTypeOf("suuu!")); //string
+console.log(getTypeOf(28)); //number
 //when i ejecute this code un consolé his printe number
 //summary: the answear is number becouse the getTypeOf he show and verify in consolé that the value 28 is the type of "number"(String) in JavaScript
 
-console.log(getTypeOf(true));//bolean
-console.log(getTypeOf(null));//object
-console.log(getTypeOf(undefined));//undefined
-
-
+console.log(getTypeOf(true)); //bolean
+console.log(getTypeOf(null)); //object
+console.log(getTypeOf(undefined)); //undefined

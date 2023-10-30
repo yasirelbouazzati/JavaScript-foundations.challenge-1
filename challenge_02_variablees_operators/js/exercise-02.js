@@ -6,11 +6,7 @@
     Repeat the above steps but try using a const variable. Comment this new part of code and explain what is happening.
 */
 
-
-
-
 //FIX: I Try to execute this script using 'const' instead of 'let'. Show the output and explain the cause.
-
 
 //declare the let variable
 let cow;
@@ -20,7 +16,6 @@ cow = "Moo!";
 console.log(cow);
 
 //result: Moo!
-
 
 /*
 
@@ -52,6 +47,3 @@ result: Moo!
 
 
 */
-
-
-
