@@ -8,7 +8,7 @@
     HINT: modulus operator ( % ) is your friend
 */
 
-let number = 5;
+let number = 200;
 
 if (number % 2 == 0) {
   console.log(number + " It's a Even number!");
