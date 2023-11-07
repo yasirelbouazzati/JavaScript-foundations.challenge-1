@@ -4,20 +4,40 @@
     2. Create a while loop that will print out all the odd numbers between 10 and 40.
 */
 
-let even_number = 10;
+/**
+ * isEvenWhile
+ */
+const isEvenWhile = function (initialNumber, finalNumber) {
+  let currentNumber = initialNumber;
 
-while (even_number <= 40) {
-  if (even_number % 2 == 0) {
-    console.log(even_number);
+  while (currentNumber < finalNumber) {
+    currentNumber % 2 === 0 && console.log(`Number ${currentNumber} is even`);
+    currentNumber++;
   }
-  even_number++;
-}
+};
 
-let odd_number = 11;
+/**
+ * isOddWhile
+ */
+const isOddWhile = function (initialNumber, finalNumber) {
+  let currentNumber = initialNumber;
 
-while (odd_number <= 39) {
-  if (odd_number % 2 !== 0) {
-    console.log(odd_number);
+  while (currentNumber < finalNumber) {
+    currentNumber % 2 !== 0 && console.log(`Number ${currentNumber} is odd`);
+    currentNumber++;
   }
-  odd_number++;
-}
+};
+
+/**
+ * Program execution
+ */
+console.log("###############################");
+console.log("--- Is EVEN or ODD while Program ---");
+
+const initialNumber = 10;
+const finalNumber = 40;
+
+isEvenWhile(initialNumber, finalNumber);
+isOddWhile(initialNumber, finalNumber);
+
+console.log("--- Is EVEN or ODD while complete ---");
