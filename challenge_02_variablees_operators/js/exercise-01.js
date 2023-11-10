@@ -26,4 +26,3 @@ console.log(name);
 
 updateValue(28);
 console.log(name);
-
